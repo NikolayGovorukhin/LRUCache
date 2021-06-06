@@ -8,7 +8,7 @@ import (
 
 func main() {
 	// Демонстрация работы
-	cache := lru_cache.NewCacheTTL(3, -1)
+	cache := lru_cache.NewCacheTTL(3, 3)
 
 	cache.Put(1, "str1")
 	cache.Put(2, "str2")
